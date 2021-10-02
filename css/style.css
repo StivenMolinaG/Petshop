@@ -1,0 +1,277 @@
+@import url('https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-black{
+    background-color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 20px;
+}
+
+.bg-black p{
+    color: #fff;
+    float: left;
+    padding-right: 900px;
+}
+
+.idioma-moneda{
+    color: #fff;
+    text-align: right;
+}
+
+.bg-yellow{
+    background-color: #F0A83E ;
+    width: 100%;
+    height: 62px;
+}
+
+#logo{
+    padding: 20px;
+    padding-left: 70px;
+}
+
+#menu{
+    padding-right: 50px;
+    margin-top: 20px;
+    float: right;
+}
+
+#menu ul li{
+    color: #fff;
+    padding: 30px;
+    display: inline;
+}
+
+.slider{
+    width: 100%;
+    height: 410px;
+    background-image: url("../images/bowl_pets.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0.1px;
+}
+
+.ct-slider{
+    width: 30%;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 900px;
+}
+
+.ct-slider .placer{
+    background-color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.ct-slider .descuento{
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.ct-slider .comederos{
+    background-color: #F0A83E;
+    margin-top: 12px;
+    width: 141px;
+    margin-left: 31%;
+    padding: 11px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.manita{
+    background-image: url("../images/huella.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 75px;
+    margin-top: 20px;
+}
+.title{
+    color: #3C2313;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.list-pdest{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    height: 18px;
+    color: #666666;
+}
+
+.list-pdest span{
+    padding: 10px;
+}
+.ct-prod{
+    padding-top: 50px;
+    padding-left: 130px;
+    padding-right: 95px;
+}
+.product{
+    text-align: center;
+    margin: 50px;
+    float: left;
+    width: 265px;
+    height: 312px;
+    background-color: #FBFAF6;
+}
+.subtitle{
+    color: #3C2313;
+    font-size: 15px;
+}
+.price{
+    color: #F0A83E;
+    font-size: 15px;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 78px;
+}
+
+.title-contact{
+    color:  #3C2313;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.text-contact{
+    font-size: 9px;
+    margin: 10px;
+    padding: 15px;
+    margin-left: 37.5%;
+    text-align: justify;
+    border-radius: 10px;
+    width: 300px;
+    color: #fff;
+    background-color: #3C2313;
+}
+.btn-contact{
+    margin-top: 50px;
+}
+
+.btn-reset{
+    margin-right: 6px;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFF;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #8A8787;
+    border-radius: 20px;
+}
+.btn-send{
+    margin-right: 6px;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFF;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #F0A83E;
+    border-radius: 20px;
+}
+
+.subs{
+    height: 60px;
+    margin-top: 82px;
+    background-color: #F0A83E;
+}
+.subs-email{
+    width: 50%;
+    float: left;
+}
+.subs-email i{
+    padding-top: 15px;
+    font-size: 30px;
+    color: #FFF;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.subs-text{
+    font-size: 20px;
+    color: #FFF;
+}
+.btn-subs{
+    width: 50%;
+    float: right;
+    padding-top: 18px;
+    text-align: left;
+}
+
+#email-subs{
+    text-align: left;
+    color: #A0A0A0;
+    background-color: #fff;
+    font-size: 9px;
+    padding: 10px; 
+    padding-right: 120px;
+    border-radius: 20px;
+    margin-left: 180px;
+}
+#subs-btn{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 9px;
+    color: #fff;
+    background-color:#3C2313;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color:#3C2313;
+    height: 285px;
+}
+
+.footer-info{
+    color: #fff;
+    float: left;
+    width: 5%;
+    padding-left: 50px;
+}
+.footer-dir{
+    width: 40%;
+    float: left;
+}
+
+.footer-info i{
+    padding-top: 35px;
+    font-size: 50px;
+}
+.footer-logo{
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 150px;
+}
+.footer-subtitle{
+    color: #fff;
+    padding-top: 39px;
+    font-size: 20px;
+}
+.footer-desc{
+    color: #8A8787;
+    font-size: 10px;
+}
+
+.footer-copy{
+    background-color: #000;
+    height: 20px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 4px;
+}
